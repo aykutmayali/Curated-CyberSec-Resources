@@ -47,12 +47,23 @@
 
 ### Footprinting and Reconnaissance
 1. Autopsy- https://www.autopsy.com
+   Autopsy development is led by Brian Carrier, whose team builds easy-to-use tools for cyber first responders to intrusions, crime scenes, and war zones. Our team also develops Cyber Triage, fast and affordable incident response software any organization can use to rapidly investigate compromised endpoints.
+
 2. Bulkextractor- https://github.com/simsong/bulk_extractor
+   bulk_extractor is a program that extracts features such as email addresses, credit card numbers, URLs, and other types of information from digital evidence files. It is a useful forensic investigation tool for many tasks such as malware and intrusion investigations, identity investigations and cyber investigations, as well as analyzing imagery and pass-word cracking. 
+
 3. Media Acquistion- https://guymager.sourceforge.io/
+   Acquisition refers to the channels that site visits come through to get to your site, or how your visits are acquired. An example of acquisition channels include:
+  Organic which refers to visits that came from someone going to your site from organic search results.
+
 4. Toolsley- https://www.toolsley.com
+   Toolsley is a privately owned website dedicated to bring you no-hassle tools that are for verifying, hashing, generating and identifying multiple formats of data files.
 ### Scanning Networks
 1. Nmap- https://www.nmap.org
+   Nmap ("Network Mapper") is a free and open source (license) utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts. 
+
 2. Wireshark- https://www.wireshark.org
+   Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998.
 ### Enumeration
 1. Network Map (nmap) - https://github.com/nmap/nmap
 2. Dracnmap - https://github.com/Screetsec/Dracnmap
