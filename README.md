@@ -65,8 +65,11 @@ Latest security patches must be installed on your guest OS before you start.
 A WiFi adapter that supports monitor mode. (Optional)
 
 2. Software Requirements:
+
 Virtual Machine Player or Hypervisor: This will be used to host all the guest operating systems, vulnerable virtual machines, and test servers. There are many free and paid options for hypervisors provided by many vendors. For example, VMware has VMWare workstation, Oracle has Oracle VirtualBox and Microsoft has HyperV. You can choose any of these depending on your choice and budget.
+
 Guest Operating Systems: Guest operating systems will include unpatched versions of Windows and Linux. These will be installed to test for zero-days and other vulnerabilities for which patches, as well as exploits, have been released.
+
 Vulnerable VMs: Vulnerable Virtual Machines are developed intentionally for being highly vulnerable. Most of the VMs are parts of hacking events and are released later online. These VMs are usually CTFs with hidden strings that are to be found after compromising (pwning) the VM. Some popular vulnerable VMs are Metasploitable, OWASP broken web application, DVWA(Damn Vulnerable Web Application), BadStore, De-Ice, and Multidae, etc.
 
 3. Essential Tools:
@@ -102,6 +105,18 @@ The objective of the lab is to extract information concerning the target organiz
 A penetration test begins before penetration testers have even made contact with the victims' systems. Rather than blindly throwing out exploits and praying that one of them returns a shell, a penetration tester meticulously studies the environment for potential weaknesses and their mitigating factors. By the time a penetration tester runs an exploit, he or she is nearly certain that it will be successful. Since failed exploits can in some cases cause a crash or even damage a victim's system, or at the very least make the victim un-exploitable in the future, penetration testers won't get the best results or deliver the most thorough report to their clients if they blindly turn an automated exploit machine on the victim network with no preparation.
 
 ### Scanning Networks
+
+*Pre-connection attacks*: in this subsection you'll learn a number of attacks that can be executed without connecting to the target network, and without the need to know the network password; you'll learn how to gather information about the networks around you, discover connected devices, and control connections (deny/allow devices from connecting to networks).
+
+*Gaining Access*: Now that you gathered information about the networks around you, in this subsection you will learn how to crack the key and get the password to your target network weather it uses WEP, WPA or even WPA2.
+
+Post Connection attacks: Now that you have the key, you can connect to the target network, in this subsection you will learn a number of powerful techniques that allow you to gather comprehensive information about the connected devices, see anything they do on the internet (such as login information, passwords, visited urls, images, videos ....etc), redirect requests, inject evil code in loaded pages and much more! All of these attacks work against both wireless and wired networks. You will also learn how to create a fake WiFi network, attract users to connect to it and use all of the above techniques against the connected clients.
+
+**Gaining Access** - In this section you will learn two main approaches to gain full control or hack computer systems:
+
+*Server Side Attacks*:  In this subsection you will learn how to gain full access to computer systems without user interaction. You will learn how to gather useful information about a target computer system such as its operating system, open ports, installed services, then use this information to discover weaknesses and vulnerabilities and exploit them to gain full control over the target. Finally you will learn how to automatically scan servers for vulnerabilities and generate different types of reports with your discoveries.
+
+*Client Side Attacks* - If the target system does not contain any weaknesses then the only way to hack it is by interacting with the users, in this subsection you'll learn how to get the target user to install a backdoor on their system without even realising, this is done by hijacking software updates or backdoornig downloadeds on the fly. This subsection also teaches you how to use social engineering to hack into secure systems, so you'll learn how to gather comprehensive information about system users such as their social accounts, friends, their mails.....etc, you'll learn how to create trojans by backdooring normal files (such as an image or a pdf) and use the gathered information to spoof emails so they appear as if they're sent from the target's friend, boss or any email account they're likely to interact with, to social engineer them into running your torjan.
 
 ### Enumeration
 
