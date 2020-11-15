@@ -46,114 +46,114 @@
 - [Cryptography](#Cryptography)
 
 ### Footprinting and Reconnaissance
-Autopsy- https://www.autopsy.com
-Bulkextractor- https://github.com/simsong/bulk_extractor
-Media Acquistion- https://guymager.sourceforge.io/
-Toolsley- https://www.toolsley.com
+1. Autopsy- https://www.autopsy.com
+2. Bulkextractor- https://github.com/simsong/bulk_extractor
+3. Media Acquistion- https://guymager.sourceforge.io/
+4. Toolsley- https://www.toolsley.com
 ### Scanning Networks
-Nmap- https://www.nmap.org
-Wireshark- https://www.wireshark.org
+1. Nmap- https://www.nmap.org
+2. Wireshark- https://www.wireshark.org
 ### Enumeration
-Network Map (nmap) - https://github.com/nmap/nmap
-Dracnmap - https://github.com/Screetsec/Dracnmap
-Port scanning
-Host to IP
-Xerosploit - https://github.com/LionSec/xerosploit
-RED HAWK (All In One Scanning) - https://github.com/Tuhinshubhra/RED_HAWK
-ReconSpider(For All Scaning) - https://github.com/bhavsec/reconspider
-IsItDown (Check Website Down/Up) 
-Infoga - Email OSINT = https://github.com/m4ll0k/Infoga
-ReconDog - https://github.com/s0md3v/ReconDog
-Striker - https://github.com/s0md3v/Striker
-SecretFinder (like API & etc) - https://github.com/m4ll0k/SecretFinder
-Find Info Using Shodan - https://github.com/m4ll0k/Shodanfy.py
-Port Scanner - rang3r = https://github.com/floriankunushevci/rang3r
-Breacher - https://github.com/s0md3v/Breacher
+1. Network Map (nmap) - https://github.com/nmap/nmap
+2. Dracnmap - https://github.com/Screetsec/Dracnmap
+3. Port scanning
+4. Host to IP
+5. Xerosploit - https://github.com/LionSec/xerosploit
+6. RED HAWK (All In One Scanning) - https://github.com/Tuhinshubhra/RED_HAWK
+7. ReconSpider(For All Scaning) - https://github.com/bhavsec/reconspider
+8. IsItDown (Check Website Down/Up) 
+9. Infoga - Email OSINT = https://github.com/m4ll0k/Infoga
+10. ReconDog - https://github.com/s0md3v/ReconDog
+11. Striker - https://github.com/s0md3v/Striker
+12. SecretFinder (like API & etc) - https://github.com/m4ll0k/SecretFinder
+13. Find Info Using Shodan - https://github.com/m4ll0k/Shodanfy.py
+14. Port Scanner - rang3r = https://github.com/floriankunushevci/rang3r
+15. Breacher - https://github.com/s0md3v/Breacher
 ### System Hacking
-Setoolkit - https://github.com/trustedsec/social-engineer-toolkit
-SocialFish - https://github.com/UndeadSec/SocialFish
-HiddenEye - https://github.com/DarkSecDevelopers/HiddenEye-Legacy
-Evilginx2 - https://github.com/kgretzky/evilginx2
-I-See_You(Get Location using phishing attack) - https://github.com/Viralmaniar/I-See-You
-SayCheese (Grab target's Webcam Shots) - https://github.com/hangetzzu/saycheese
-QR Code Jacking - https://github.com/cryptedwolf/ohmyqr
-ShellPhish - https://github.com/An0nUD4Y/shellphish
-BlackPhish - https://github.com/iinc0gnit0/BlackPhish
+1. Setoolkit - https://github.com/trustedsec/social-engineer-toolkit
+2. SocialFish - https://github.com/UndeadSec/SocialFish
+3. HiddenEye - https://github.com/DarkSecDevelopers/HiddenEye-Legacy
+4. Evilginx2 - https://github.com/kgretzky/evilginx2
+5. I-See_You(Get Location using phishing attack) - https://github.com/Viralmaniar/I-See-You
+6. SayCheese (Grab target's Webcam Shots) - https://github.com/hangetzzu/saycheese
+7. QR Code Jacking - https://github.com/cryptedwolf/ohmyqr
+8. ShellPhish - https://github.com/An0nUD4Y/shellphish
+9. BlackPhish - https://github.com/iinc0gnit0/BlackPhish
 ### Payload Creation
-The FatRat - https://github.com/Screetsec/TheFatRat
-Brutal - https://github.com/Screetsec/Brutal
-Stitch - https://nathanlopez.github.io/Stitch
-MSFvenom Payload Creator - https://github.com/g0tmi1k/msfpc
-Venom Shellcode Generator -  https://github.com/r00t-3xp10it/venom
-Spycam - https://github.com/thelinuxchoice/spycam
-Mob-Droid - https://github.com/kinghacker0/Mob-Droid
-Enigma -  https://github.com/UndeadSec/Enigma
+1. The FatRat - https://github.com/Screetsec/TheFatRat
+2. Brutal - https://github.com/Screetsec/Brutal
+3. Stitch - https://nathanlopez.github.io/Stitch
+4. MSFvenom Payload Creator - https://github.com/g0tmi1k/msfpc
+5. Venom Shellcode Generator -  https://github.com/r00t-3xp10it/venom
+6. Spycam - https://github.com/thelinuxchoice/spycam
+7. Mob-Droid - https://github.com/kinghacker0/Mob-Droid
+8. Enigma -  https://github.com/UndeadSec/Enigma
 
 ### Sniffing
-OpenVAS - https://www.openvas.org/
-Nikto - https://cirt.net/Nikto2
-Wapiti - https://wapiti.sourceforge.io/
-Metasploit - https://www.metasploit.com/
-Maltego - https://www.maltego.com/
-Canvas - https://www.immunityinc.com/products/canvas/
-Sn1per - https://github.com/1N3/Sn1per
-Lazyrecon - https://github.com/nahamsec/lazyrecon
-Osmedeus - https://github.com/j3ssie/Osmedeus
-Reconness - https://github.com/reconness/reconness
-IronWASP - https://resources.infosecinstitute.com/ironwasp-part-1-2/
+1. OpenVAS - https://www.openvas.org/
+2. Nikto - https://cirt.net/Nikto2
+3. Wapiti - https://wapiti.sourceforge.io/
+4. Metasploit - https://www.metasploit.com/
+5. Maltego - https://www.maltego.com/
+6. Canvas - https://www.immunityinc.com/products/canvas/
+7. Sn1per - https://github.com/1N3/Sn1per
+8. Lazyrecon - https://github.com/nahamsec/lazyrecon
+9. Osmedeus - https://github.com/j3ssie/Osmedeus
+10. Reconness - https://github.com/reconness/reconness
+11. IronWASP - https://resources.infosecinstitute.com/ironwasp-part-1-2/
 
 ### Social Engineering
-Awesome Social Engineering - https://github.com/v2-dev/awesome-social-engineering 
+1. Awesome Social Engineering - https://github.com/v2-dev/awesome-social-engineering 
 
 ### Denial Of Service
-SlowLoris 
-Asyncrone | Multifunction SYN Flood DDoS Weapon - https://github.com/fatihsnsy/aSYNcrone 
-UFOnet - https://github.com/epsylon/ufonet
-GoldenEye - https://github.com/jseidl/GoldenEye
+1. SlowLoris 
+2. Asyncrone | Multifunction SYN Flood DDoS Weapon - https://github.com/fatihsnsy/aSYNcrone 
+3. UFOnet - https://github.com/epsylon/ufonet
+4. GoldenEye - https://github.com/jseidl/GoldenEye
 ### Session Hijacking
-Debinject - https://github.com/UndeadSec/Debinject
-Pixload - https://github.com/chinarulezzz/pixload
+1. Debinject - https://github.com/UndeadSec/Debinject
+2. Pixload - https://github.com/chinarulezzz/pixload
 
 ### Evading IDS, Firewalls and Honeypots
-Bluetooth Honeypot- https://github.com/andrewmichaelsmith/bluepot 
-Kippo - https://github.com/desaster/kippo
-MushMush - http://mushmush.org/
-Formidable Honeypot - https://es.wordpress.org/plugins/formidable-honeypot/
-Elastic Honey - https://github.com/jordan-wright/elastichoney
-Honey Thing - https://github.com/omererdem/honeything
+1. Bluetooth Honeypot- https://github.com/andrewmichaelsmith/bluepot 
+2. Kippo - https://github.com/desaster/kippo
+3. MushMush - http://mushmush.org/
+4. Formidable Honeypot - https://es.wordpress.org/plugins/formidable-honeypot/
+5. Elastic Honey - https://github.com/jordan-wright/elastichoney
+6. Honey Thing - https://github.com/omererdem/honeything
 ### Hacking Web Servers
 
 ### Hacking Web Applications
-https://github.com/infoslack/awesome-web-hacking
+1. https://github.com/infoslack/awesome-web-hacking
 ### SQL Injection
-Sqlmap tool - https://github.com/sqlmapproject/sqlmap
-NoSqlMap - https://github.com/codingo/NoSQLMap
-Damn Small SQLi Scanner - https://github.com/stamparm/DSSS
-Explo - https://github.com/telekom-security/explo
-Blisqy - Exploit Time-based blind-SQL injection - https://github.com/JohnTroony/Blisqy
-Leviathan - Wide Range Mass Audit Toolkit - https://github.com/utkusen/leviathan
-SQLScan - https://github.com/Cvar1984/sqlscan
+1. Sqlmap tool - https://github.com/sqlmapproject/sqlmap
+2. NoSqlMap - https://github.com/codingo/NoSQLMap
+3. Damn Small SQLi Scanner - https://github.com/stamparm/DSSS
+4. Explo - https://github.com/telekom-security/explo
+5. Blisqy - Exploit Time-based blind-SQL injection - https://github.com/JohnTroony/Blisqy
+6. Leviathan - Wide Range Mass Audit Toolkit - https://github.com/utkusen/leviathan
+7. SQLScan - https://github.com/Cvar1984/sqlscan
 ### Hacking Wireless Networks
-WiFi-Pumpkin https://github.com/P0cL4bs/wifipumpkin3
-pixiewps - https://github.com/wiire-a/pixiewps
-Bluetooth Honeypot GUI Framework - https://github.com/andrewmichaelsmith/bluepot
-Fluxion - https://github.com/thehackingsage/Fluxion
-Wifiphisher - https://github.com/wifiphisher/wifiphisher
-Wifite - https://github.com/derv82/wifite2
-EvilTwin - https://github.com/Z4nzu/fakeap
-Fastssh - https://github.com/Z4nzu/fastssh
-Howmanypeople
+1. WiFi-Pumpkin https://github.com/P0cL4bs/wifipumpkin3
+2. pixiewps - https://github.com/wiire-a/pixiewps
+3. Bluetooth Honeypot GUI Framework - https://github.com/andrewmichaelsmith/bluepot
+4. Fluxion - https://github.com/thehackingsage/Fluxion
+5. Wifiphisher - https://github.com/wifiphisher/wifiphisher
+6. Wifite - https://github.com/derv82/wifite2
+7. EvilTwin - https://github.com/Z4nzu/fakeap
+8. Fastssh - https://github.com/Z4nzu/fastssh
+9. Howmanypeople
 
 ### Hacking Mobile Platforms
-Keydroid - https://github.com/F4dl0/keydroid
-MySMS - https://github.com/papusingh2sms/mysms
-Lockphish (Grab target LOCK PIN) - https://github.com/JasonJerry/lockphish
-DroidCam (Capture Image) - https://github.com/kinghacker0/WishFish
-EvilApp (Hijack Session) - https://github.com/Ro9ueAdmin/EvilApp
-HatCloud(Bypass CloudFlare for IP) - https://github.com/HatBashBR/HatCloud
+1. Keydroid - https://github.com/F4dl0/keydroid
+2. MySMS - https://github.com/papusingh2sms/mysms
+3. Lockphish (Grab target LOCK PIN) - https://github.com/JasonJerry/lockphish
+4. DroidCam (Capture Image) - https://github.com/kinghacker0/WishFish
+5. EvilApp (Hijack Session) - https://github.com/Ro9ueAdmin/EvilApp
+6. HatCloud(Bypass CloudFlare for IP) - https://github.com/HatBashBR/HatCloud
 ### IoT Hacking
-Vehicle Security - https://github.com/jaredthecoder/awesome-vehicle-security
+1. Vehicle Security - https://github.com/jaredthecoder/awesome-vehicle-security
 ### Cloud Computing
 
 ### Cryptography
-Awesome Cryptography - https://github.com/sobolevn/awesome-cryptography
+1. Awesome Cryptography - https://github.com/sobolevn/awesome-cryptography
