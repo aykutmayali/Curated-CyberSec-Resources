@@ -83,6 +83,23 @@ Burpsuite or OWASP ZAP: Both are great all in one tool for penetration testing w
 
 __*Kali Linux*__: It is an operating system developed primarily for white hat hackers and penetration testers. This OS has a wide array of tools for almost every task before, during and after a penetration testing session. It contains all the tools mentioned above (No need for installing them manually). Kali Linux can be downloaded from here. 
 ### Footprinting and Reconnaissance
+Before a penetration test even begins, penetration testers spend time with their clients working out the scope, rules, and goals of the test. The penetration testers may break in using any means necessary, from using information found in the dumpster, to locating web application security holes, to posing as the cable guy. After pre-engagement activities, penetration testers begin gathering information about their targets.
+
+**Objective**
+The objective of the lab is to extract information concerning the target organization that includes, but is not limited to:
+
+1. Type of firewall implemented, either hardware or software or a combination of both
+2. IP address range associated with the target
+3. Purpose of the organization and why it exists
+4. How big is the organization? What class is its assigned IP Block?
+5. Does the organization freely provide information about the type of operating systems employed and network topology in use?
+6. Does the organization allow wireless devices to connect to wired networks?
+7. Type of remote access used, either SSH or VPN
+8. Is help sought from IT positions that give information on network services provided by the organization?
+9. Identify organization’s users who can disclose their personal information that can be used for social engineering and assume such possible usernames
+
+**Scenario**
+A penetration test begins before penetration testers have even made contact with the victims' systems. Rather than blindly throwing out exploits and praying that one of them returns a shell, a penetration tester meticulously studies the environment for potential weaknesses and their mitigating factors. By the time a penetration tester runs an exploit, he or she is nearly certain that it will be successful. Since failed exploits can in some cases cause a crash or even damage a victim's system, or at the very least make the victim un-exploitable in the future, penetration testers won't get the best results or deliver the most thorough report to their clients if they blindly turn an automated exploit machine on the victim network with no preparation.
 
 ### Scanning Networks
 
