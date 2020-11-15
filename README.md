@@ -31,7 +31,6 @@
 - [Footprinting and Reconnaissance](#Footprinting-Reconnaissance)
 - [Scanning Networks](#Scanning-Networks)
 - [Enumeration](#Enumeration)
-- [Voluntarily Analysis](#Voluntarily-Analysis)
 - [System Hacking](#System-Hacking)
 - [Malware Threats](#Malware-Threats)
 - [Sniffing](#Sniffing)
@@ -120,14 +119,94 @@ Post Connection attacks: Now that you have the key, you can connect to the targe
 *Client Side Attacks* - If the target system does not contain any weaknesses then the only way to hack it is by interacting with the users, in this subsection you'll learn how to get the target user to install a backdoor on their system without even realising, this is done by hijacking software updates or backdoornig downloadeds on the fly. This subsection also teaches you how to use social engineering to hack into secure systems, so you'll learn how to gather comprehensive information about system users such as their social accounts, friends, their mails.....etc, you'll learn how to create trojans by backdooring normal files (such as an image or a pdf) and use the gathered information to spoof emails so they appear as if they're sent from the target's friend, boss or any email account they're likely to interact with, to social engineer them into running your torjan.
 
 ### Enumeration
+Enumeration belongs to the first phase of Ethical Hacking, i.e., “Information Gathering”. This is a process where the attacker establishes an active connection with the victim and try to discover as much attack vectors as possible, which can be used to exploit the systems further.
 
-### Voluntarily Analysis
+Enumeration can be used to gain information on −
 
+1. Network shares
+2. SNMP data, if they are not secured properly
+3. IP tables
+4. Usernames of different systems
+5. Passwords policies lists
+6. Enumerations depend on the services that the systems offer. They can be − DNS (Domain Name System), NTP (Network Time Protocol), Simple Network Management Protocol (SNMP), Linux/Windows or Server Message Block (SMB) 
 ### System Hacking
 
+The goal of system hacking is to gain access, escalate privileges, execute applications, and hide files.
+These are the further steps-
+
+1. Extracting administrative passwords
+2. Hiding files and extracting hidden files
+3. Recovering passwords
+4. Monitoring a system remotely
+
+
+**Scenario**
+
+Password hacking is one of the easiest and most common ways hackers obtain unauthorized computer or network access. Although strong passwords that are difficult to crack (or guess) are easy to create and maintain, users often fail to take advantage of this. Therefore, passwords are one of the weakest links in the information-security chain. Passwords rely on secrecy for their security. After a password is compromised, its original owner isn't the only person who can access the system with it. As you'll learn, hackers have many ways to obtain passwords. Hackers can obtain passwords from local computers by using password-cracking software. To obtain passwords from across a network, hackers can use remote cracking utilities or network analyzers. This chapter demonstrates just how easily hackers can gather password information from your network and describes password vulnerabilities that exit in computer networks and countermeasures to help prevent these vulnerabilities from being exploited on your systems.
 ### Malware Threats
+Malware is a malicious software that is dangerous to the computer. Once installed, malware can harm the computer in different ways. To have a better understanding of malware threats. Let’s find out first how does one get malware on the computer.
+
+Where Malware Threats come from
+Malware is spread on different websites on the Internet. Hackers are clever these days; they don’t just insert malware in non-secure websites but also on legitimate websites. How do they do this?
+
+Hackers use different techniques to lure in victims.
+
+1. **Social Engineering**
+
+Social engineering is a technique that makes a user want to give away personal information. Think of it this way; a present is ready to be shipped, you just have to provide your address.
+
+Who would refuse a present? If you are unaware of how malware works, you will fall into this trick. Rather than installing malware intrusively, they’ve developed a strategy for the user to install malware willingly.
+
+By presenting malware in an engaging way, it is easy to convince users into installing malware on their computer. What are the examples of social engineering?
+
+_*Email*_
+
+One example of a social engineering email is a fake email from a friend or family. It may contain a message saying that there’s a funny picture of you, click here to view the image.
+
+This may trigger curiosity. Who doesn’t want to see his own funny photo, right? If you have no idea that it’s a form of social engineering, you will download the attachment and install malware without knowing it.
+
+So how to prevent malware from fake emails? Send your contact a separate email to confirm if the email is legit.
+
+_*Fake Downloads*_
+
+Social engineering can use a threat to convince their victim. You could just be browsing the Internet, suddenly a message flashes on the screen saying that there’s a threat detected, click here to download an antivirus.
+
+Don’t fall for this trick. Threats can be resolved by downloading a trustworthy antivirus software.
+
+_*Phishing Link_*
+
+Do you know that a phishing link generates a fake login page to collect information and install malware? This is most common in-game cheats and hacks. A hacker can easily add a link that redirects the user to a fake website that contains dangerous malware.
+
+So how to avoid phishing links? Use the free website scanner on the Internet to verify if the link is safe. You may use Website Inspector by Comodo or other third party websites.
+
+2. **Website Cookie Exploitation**
+
+Cookies are sent from a browser to a server over a secure HTTPS connection. However, hackers have found a way to inject fake cookies that can bypass HTTPS security.
+
+These malicious cookies can be used to install malware such as Trojan and to redirect the user to a fake website.
+
+Now that we know where malware threats come from, what are malware threats exactly?
+
+Malware is an application that is designed to steal personal information and destroy computer data without being exposed. Hackers use different types of malware to invade the computer.
 
 ### Sniffing
+Sniffing is the process of monitoring and capturing all data packets that are passing through a computer network using packet sniffers. Packet Sniffers are used by network administrators to keep track of data traffic passing through their network. These are called network protocol analyzers. In the same way, malicious attackers employ the use of these packet sniffing tools to capture data packets in a network.  
+
+There are two types of sniffing attacks, active sniffing and passive sniffing. 
+
+__*Active sniffing*__ – this is sniffing that is conducted on a switched network. A switch is a device that connects two network devices together. Switches use the media access control (MAC) address to forward information to their intended destination ports. Attackers take advantage of this by injecting traffic into the LAN to enable sniffing. 
+
+__*Passive sniffing*__  – passive sniffing uses hubs instead of switches. Hubs perform the same way as switches only that they do use MAC address to read the destination ports of data. All an attacker needs to do is to simply connect to LAN and they are able to sniff data traffic in that network. 
+
+**How to Prevent Sniffing Attacks** 
+
+__*Untrusted networks*__: users should avoid connecting to unsecured networks, which includes free public Wi-Fi. These unsecured networks are dangerous since an attacker can deploy a packet sniffer that can sniff the entire network. Another way an attacker can sniff network traffic is by creating their own fake–free public Wi-Fi. 
+
+__*Encryption*__: Encryption is the process of converting plaintext into gibberish in order to protect the message from attackers. Before leaving the network, the information should be encrypted to protect it from hackers who sniff into networks. This is achieved through the use of a virtual private network (VPN). 
+
+__*Network scanning and monitoring*__: Network administrators should scan and monitor their networks to detect any suspicious traffic. This can be achieved by bandwidth monitoring or device auditing.  
+
+In information security, ethical hackers also use sniffing techniques to acquire information that could help them penetrate a system. If used by professionals like ethical hackers, packet sniffers could help in identifying a system’s vulnerabilities. 
 
 ### Social Engineering
 
