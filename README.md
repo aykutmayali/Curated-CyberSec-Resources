@@ -47,6 +47,7 @@
 - [IoT Hacking](#IoT-Hacking)
 - [Cloud Computing](#Cloud-Computing)
 - [Cryptography](#Cryptography)
+- [External Links/Resources](#External-Links-Resources)
 
 ### Hacking Introduction and Building Lab
 Ethical hacking is a skill that is learned over time. It requires practice and patience to get to a decent skill level in this field. Having a lab setup handy can help you a lot in your learning. A lab lets you practice your skills in a controlled environment, reducing the risks that arise from practicing on real systems. Having your virtual lab will help you in many ways:
@@ -151,3 +152,5 @@ Post Connection attacks: Now that you have the key, you can connect to the targe
 ### Cloud Computing
 
 ### Cryptography
+
+### External-Links-Resources
