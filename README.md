@@ -26,8 +26,6 @@
 <br>
 
 ## Table of Contents
-
-- [Hacking Introduction and Building Lab](#Hacking-Introduction)
 - [Footprinting and Reconnaissance](#Footprinting-Reconnaissance)
 - [Scanning Networks](#Scanning-Networks)
 - [Enumeration](#Enumeration)
@@ -46,169 +44,24 @@
 - [IoT Hacking](#IoT-Hacking)
 - [Cloud Computing](#Cloud-Computing)
 - [Cryptography](#Cryptography)
-- [External Links/Resources](#External-Links-Resources)
 
-### Hacking Introduction and Building Lab
-Ethical hacking is a skill that is learned over time. It requires practice and patience to get to a decent skill level in this field. Having a lab setup handy can help you a lot in your learning. A lab lets you practice your skills in a controlled environment, reducing the risks that arise from practicing on real systems. Having your virtual lab will help you in many ways:
-
-You can practice anytime as per your convenience.
-You don’t have to put your data under the dangers of getting wiped because of malware infection.
-You are also saved from legal troubles that may result from testing on a real website that you do not own.
-You get the freedom to experiment and tweak around (mostly impossible with online labs).
-The requirements for setting up the lab are hardware and software tools. Let’s go through the hardware requirements first.
-
-1. Hardware Requirements:
-A laptop or a desktop with as much RAM and processor power you can arrange.
-A large HDD or SSD to store your tools and other important files.
-A host OS for your computer system. It can be Windows, Linux( any family, any flavor) or Mac OS depending on your choice.
-Latest security patches must be installed on your guest OS before you start.
-A WiFi adapter that supports monitor mode. (Optional)
-
-2. Software Requirements:
-
-Virtual Machine Player or Hypervisor: This will be used to host all the guest operating systems, vulnerable virtual machines, and test servers. There are many free and paid options for hypervisors provided by many vendors. For example, VMware has VMWare workstation, Oracle has Oracle VirtualBox and Microsoft has HyperV. You can choose any of these depending on your choice and budget.
-
-Guest Operating Systems: Guest operating systems will include unpatched versions of Windows and Linux. These will be installed to test for zero-days and other vulnerabilities for which patches, as well as exploits, have been released.
-
-Vulnerable VMs: Vulnerable Virtual Machines are developed intentionally for being highly vulnerable. Most of the VMs are parts of hacking events and are released later online. These VMs are usually CTFs with hidden strings that are to be found after compromising (pwning) the VM. Some popular vulnerable VMs are Metasploitable, OWASP broken web application, DVWA(Damn Vulnerable Web Application), BadStore, De-Ice, and Multidae, etc.
-
-3. Essential Tools:
-Once you have found and installed your favorite vulnerable assets, it is now time to get the tools required for pwning them. Install these tools on your computer to get started.
-
-__*Metasploit Framework (MSF)*__: An open-source version of the Metasploit tool is used extensively for exploiting known vulnerabilities in systems and software. The exploit list is updates regularly with exploits of most recent findings that went public. Metasploit can be downloaded from: here.
-
-__*WireShark*__: It is a tool used by network administrators but you can use it to supplement your hacking tools arsenal. For you as a hacker(ethical, of course) this tool will help in network pentesting by the same basic feature of network monitoring :it can help you harvest sensitive data like plaintext passwords over unencrypted connections(http, telnet), analyze malware behavior by figuring out the endpoints it tries to connect, and many more. We have done an introductory article on Wireshark which you can check out here
-
-__*Nmap*__: One tool to rule ’em all, it is used by almost every penetration tester. It is a port scanner with a set of additional utilities like OS detection and network mapping(nmap stands for “network mapper” ). It can be automated by writing scripts in NSE(nmap scripting environment). Port scans are used to enumerate services and applications on the target. These enumeration data can be really useful in some cases for pwning the target. Get it here .
-
-__*John The Ripper*__: It is a free and open-source password cracking tool which is highly popular among penetration testers. Popularity is the reason why it is available on fifteen platforms. The tools were initially designed for cracking UNIX password hashes. However, the latest stable release from May 2019 supports Windows NTLM, Kerberos and hundreds of other hashes.
-Burpsuite or OWASP ZAP: Both are great all in one tool for penetration testing web applications. Learning about hacking web applications is crucial for an aspiring (ethical) hacker since most of the services are provided online. These two tool-sets contain all the tools you will need for hacking (ethically) into a web application.
-
-__*Kali Linux*__: It is an operating system developed primarily for white hat hackers and penetration testers. This OS has a wide array of tools for almost every task before, during and after a penetration testing session. It contains all the tools mentioned above (No need for installing them manually). Kali Linux can be downloaded from here. 
 ### Footprinting and Reconnaissance
-Before a penetration test even begins, penetration testers spend time with their clients working out the scope, rules, and goals of the test. The penetration testers may break in using any means necessary, from using information found in the dumpster, to locating web application security holes, to posing as the cable guy. After pre-engagement activities, penetration testers begin gathering information about their targets.
 
-**Objective**
-The objective of the lab is to extract information concerning the target organization that includes, but is not limited to:
-
-1. Type of firewall implemented, either hardware or software or a combination of both
-2. IP address range associated with the target
-3. Purpose of the organization and why it exists
-4. How big is the organization? What class is its assigned IP Block?
-5. Does the organization freely provide information about the type of operating systems employed and network topology in use?
-6. Does the organization allow wireless devices to connect to wired networks?
-7. Type of remote access used, either SSH or VPN
-8. Is help sought from IT positions that give information on network services provided by the organization?
-9. Identify organization’s users who can disclose their personal information that can be used for social engineering and assume such possible usernames
-
-**Scenario**
-A penetration test begins before penetration testers have even made contact with the victims' systems. Rather than blindly throwing out exploits and praying that one of them returns a shell, a penetration tester meticulously studies the environment for potential weaknesses and their mitigating factors. By the time a penetration tester runs an exploit, he or she is nearly certain that it will be successful. Since failed exploits can in some cases cause a crash or even damage a victim's system, or at the very least make the victim un-exploitable in the future, penetration testers won't get the best results or deliver the most thorough report to their clients if they blindly turn an automated exploit machine on the victim network with no preparation.
 
 ### Scanning Networks
 
-*Pre-connection attacks*: in this subsection you'll learn a number of attacks that can be executed without connecting to the target network, and without the need to know the network password; you'll learn how to gather information about the networks around you, discover connected devices, and control connections (deny/allow devices from connecting to networks).
-
-*Gaining Access*: Now that you gathered information about the networks around you, in this subsection you will learn how to crack the key and get the password to your target network weather it uses WEP, WPA or even WPA2.
-
-Post Connection attacks: Now that you have the key, you can connect to the target network, in this subsection you will learn a number of powerful techniques that allow you to gather comprehensive information about the connected devices, see anything they do on the internet (such as login information, passwords, visited urls, images, videos ....etc), redirect requests, inject evil code in loaded pages and much more! All of these attacks work against both wireless and wired networks. You will also learn how to create a fake WiFi network, attract users to connect to it and use all of the above techniques against the connected clients.
-
-**Gaining Access** - In this section you will learn two main approaches to gain full control or hack computer systems:
-
-*Server Side Attacks*:  In this subsection you will learn how to gain full access to computer systems without user interaction. You will learn how to gather useful information about a target computer system such as its operating system, open ports, installed services, then use this information to discover weaknesses and vulnerabilities and exploit them to gain full control over the target. Finally you will learn how to automatically scan servers for vulnerabilities and generate different types of reports with your discoveries.
-
-*Client Side Attacks* - If the target system does not contain any weaknesses then the only way to hack it is by interacting with the users, in this subsection you'll learn how to get the target user to install a backdoor on their system without even realising, this is done by hijacking software updates or backdoornig downloadeds on the fly. This subsection also teaches you how to use social engineering to hack into secure systems, so you'll learn how to gather comprehensive information about system users such as their social accounts, friends, their mails.....etc, you'll learn how to create trojans by backdooring normal files (such as an image or a pdf) and use the gathered information to spoof emails so they appear as if they're sent from the target's friend, boss or any email account they're likely to interact with, to social engineer them into running your torjan.
 
 ### Enumeration
-Enumeration belongs to the first phase of Ethical Hacking, i.e., “Information Gathering”. This is a process where the attacker establishes an active connection with the victim and try to discover as much attack vectors as possible, which can be used to exploit the systems further.
 
-Enumeration can be used to gain information on −
-
-1. Network shares
-2. SNMP data, if they are not secured properly
-3. IP tables
-4. Usernames of different systems
-5. Passwords policies lists
-6. Enumerations depend on the services that the systems offer. They can be − DNS (Domain Name System), NTP (Network Time Protocol), Simple Network Management Protocol (SNMP), Linux/Windows or Server Message Block (SMB) 
 ### System Hacking
 
-The goal of system hacking is to gain access, escalate privileges, execute applications, and hide files.
-These are the further steps-
-
-1. Extracting administrative passwords
-2. Hiding files and extracting hidden files
-3. Recovering passwords
-4. Monitoring a system remotely
-
-
-**Scenario**
-
-Password hacking is one of the easiest and most common ways hackers obtain unauthorized computer or network access. Although strong passwords that are difficult to crack (or guess) are easy to create and maintain, users often fail to take advantage of this. Therefore, passwords are one of the weakest links in the information-security chain. Passwords rely on secrecy for their security. After a password is compromised, its original owner isn't the only person who can access the system with it. As you'll learn, hackers have many ways to obtain passwords. Hackers can obtain passwords from local computers by using password-cracking software. To obtain passwords from across a network, hackers can use remote cracking utilities or network analyzers. This chapter demonstrates just how easily hackers can gather password information from your network and describes password vulnerabilities that exit in computer networks and countermeasures to help prevent these vulnerabilities from being exploited on your systems.
 ### Malware Threats
-Malware is a malicious software that is dangerous to the computer. Once installed, malware can harm the computer in different ways. To have a better understanding of malware threats. Let’s find out first how does one get malware on the computer.
-
-Where Malware Threats come from
-Malware is spread on different websites on the Internet. Hackers are clever these days; they don’t just insert malware in non-secure websites but also on legitimate websites. How do they do this?
-
-Hackers use different techniques to lure in victims.
-
-1. **Social Engineering**
-
-Social engineering is a technique that makes a user want to give away personal information. Think of it this way; a present is ready to be shipped, you just have to provide your address.
-
-Who would refuse a present? If you are unaware of how malware works, you will fall into this trick. Rather than installing malware intrusively, they’ve developed a strategy for the user to install malware willingly.
-
-By presenting malware in an engaging way, it is easy to convince users into installing malware on their computer. What are the examples of social engineering?
-
-_*Email*_
-
-One example of a social engineering email is a fake email from a friend or family. It may contain a message saying that there’s a funny picture of you, click here to view the image.
-
-This may trigger curiosity. Who doesn’t want to see his own funny photo, right? If you have no idea that it’s a form of social engineering, you will download the attachment and install malware without knowing it.
-
-So how to prevent malware from fake emails? Send your contact a separate email to confirm if the email is legit.
-
-_*Fake Downloads*_
-
-Social engineering can use a threat to convince their victim. You could just be browsing the Internet, suddenly a message flashes on the screen saying that there’s a threat detected, click here to download an antivirus.
-
-Don’t fall for this trick. Threats can be resolved by downloading a trustworthy antivirus software.
-
-_*Phishing Link_*
-
-Do you know that a phishing link generates a fake login page to collect information and install malware? This is most common in-game cheats and hacks. A hacker can easily add a link that redirects the user to a fake website that contains dangerous malware.
-
-So how to avoid phishing links? Use the free website scanner on the Internet to verify if the link is safe. You may use Website Inspector by Comodo or other third party websites.
-
-2. **Website Cookie Exploitation**
-
-Cookies are sent from a browser to a server over a secure HTTPS connection. However, hackers have found a way to inject fake cookies that can bypass HTTPS security.
-
-These malicious cookies can be used to install malware such as Trojan and to redirect the user to a fake website.
-
-Now that we know where malware threats come from, what are malware threats exactly?
-
-Malware is an application that is designed to steal personal information and destroy computer data without being exposed. Hackers use different types of malware to invade the computer.
 
 ### Sniffing
-Sniffing is the process of monitoring and capturing all data packets that are passing through a computer network using packet sniffers. Packet Sniffers are used by network administrators to keep track of data traffic passing through their network. These are called network protocol analyzers. In the same way, malicious attackers employ the use of these packet sniffing tools to capture data packets in a network.  
 
-There are two types of sniffing attacks, active sniffing and passive sniffing. 
-
-__*Active sniffing*__ – this is sniffing that is conducted on a switched network. A switch is a device that connects two network devices together. Switches use the media access control (MAC) address to forward information to their intended destination ports. Attackers take advantage of this by injecting traffic into the LAN to enable sniffing. 
-
-__*Passive sniffing*__  – passive sniffing uses hubs instead of switches. Hubs perform the same way as switches only that they do use MAC address to read the destination ports of data. All an attacker needs to do is to simply connect to LAN and they are able to sniff data traffic in that network. 
-
-**How to Prevent Sniffing Attacks** 
-
-__*Untrusted networks*__: users should avoid connecting to unsecured networks, which includes free public Wi-Fi. These unsecured networks are dangerous since an attacker can deploy a packet sniffer that can sniff the entire network. Another way an attacker can sniff network traffic is by creating their own fake–free public Wi-Fi. 
-
-__*Encryption*__: Encryption is the process of converting plaintext into gibberish in order to protect the message from attackers. Before leaving the network, the information should be encrypted to protect it from hackers who sniff into networks. This is achieved through the use of a virtual private network (VPN). 
-
-__*Network scanning and monitoring*__: Network administrators should scan and monitor their networks to detect any suspicious traffic. This can be achieved by bandwidth monitoring or device auditing.  
-
-In information security, ethical hackers also use sniffing techniques to acquire information that could help them penetrate a system. If used by professionals like ethical hackers, packet sniffers could help in identifying a system’s vulnerabilities. 
 
 ### Social Engineering
+
 
 ### Denial Of Service
 
@@ -232,4 +85,3 @@ In information security, ethical hackers also use sniffing techniques to acquire
 
 ### Cryptography
 
-### External-Links-Resources
