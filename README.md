@@ -46,7 +46,8 @@
 - [Cryptography](#Cryptography)
 
 ### Footprinting and Reconnaissance
-1. Autopsy- https://www.autopsy.com
+1. [**Autopsy**](https://www.autopsy.com)
+
    Led by Brian Carrier, whose team builds easy-to-use tools for cyber first responders to intrusions, crime scenes, and war zones. Our team also develops Cyber Triage, fast and affordable incident response software any organization can use to rapidly investigate compromised endpoints.
 
 2. Bulkextractor- https://github.com/simsong/bulk_extractor
