@@ -47,29 +47,33 @@
 
 ### Footprinting and Reconnaissance
 1. Autopsy- https://www.autopsy.com
-   Autopsy development is led by Brian Carrier, whose team builds easy-to-use tools for cyber first responders to intrusions, crime scenes, and war zones. Our team also develops Cyber Triage, fast and affordable incident response software any organization can use to rapidly investigate compromised endpoints.
+   Led by Brian Carrier, whose team builds easy-to-use tools for cyber first responders to intrusions, crime scenes, and war zones. Our team also develops Cyber Triage, fast and affordable incident response software any organization can use to rapidly investigate compromised endpoints.
 
 2. Bulkextractor- https://github.com/simsong/bulk_extractor
-   bulk_extractor is a program that extracts features such as email addresses, credit card numbers, URLs, and other types of information from digital evidence files. It is a useful forensic investigation tool for many tasks such as malware and intrusion investigations, identity investigations and cyber investigations, as well as analyzing imagery and pass-word cracking. 
+    A program that extracts features such as email addresses, credit card numbers, URLs, and other types of information from digital evidence files. It is a useful forensic investigation tool for many tasks such as malware and intrusion investigations, identity investigations and cyber investigations, as well as analyzing imagery and pass-word cracking. 
 
 3. Media Acquistion- https://guymager.sourceforge.io/
    Acquisition refers to the channels that site visits come through to get to your site, or how your visits are acquired. An example of acquisition channels include:
   Organic which refers to visits that came from someone going to your site from organic search results.
 
 4. Toolsley- https://www.toolsley.com
-   Toolsley is a privately owned website dedicated to bring you no-hassle tools that are for verifying, hashing, generating and identifying multiple formats of data files.
+    A privately owned website dedicated to bring you no-hassle tools that are for verifying, hashing, generating and identifying multiple formats of data files.
 ### Scanning Networks
 1. Nmap- https://www.nmap.org
-   Nmap ("Network Mapper") is a free and open source (license) utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts. 
+    A free and open source (license) utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts. 
 
 2. Wireshark- https://www.wireshark.org
-   Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998.
+    The world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998.
 ### Enumeration
 1. Network Map (nmap) - https://github.com/nmap/nmap
+Nmap ("Network Mapper") is a free and open source (license) utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts.
 2. Dracnmap - https://github.com/Screetsec/Dracnmap
+Dracnmap is an open source program which is using to exploit the network and gathering information with nmap help. Nmap command comes with lots of options that can make the utility more robust and difficult to follow for new users. Hence Dracnmap is designed to perform fast scaning with the utilizing script engine of nmap and nmap can perform various automatic scanning techniques with the advanced commands.
 3. Port scanning
-4. Host to IP
+Network port scanner has become an essential part of network admins go-to tools to secure networks with port scanning and network port investigation. Ports act as communication terminals that allow communication between different network components by running various services. A network port scanner enables port scanning your entire network to determine which ports on your network are open and what services are running on them. 
+4. Host to IP 
 5. Xerosploit - https://github.com/LionSec/xerosploit
+
 6. RED HAWK (All In One Scanning) - https://github.com/Tuhinshubhra/RED_HAWK
 7. ReconSpider(For All Scaning) - https://github.com/bhavsec/reconspider
 8. IsItDown (Check Website Down/Up) 
