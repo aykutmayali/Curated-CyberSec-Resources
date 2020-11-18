@@ -1,4 +1,4 @@
-# Curated Penetration Testing Resources
+# Curated Cyber Security Resources
 
 ![Banner](https://github.com/theepiccode/Curated-CyberSec-Resources/blob/main/Banner.png)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=theepiccode&label=Views&color=blue&style=plastic" alt="theepiccode" /> </p>
